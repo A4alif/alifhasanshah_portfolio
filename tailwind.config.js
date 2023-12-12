@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      mont: ["Montserrat", "sans-serif"],
+      danc: ["Dancing Script", "cursive"],
+    }
   },
   plugins: [require("daisyui")],
   daisyui: {
