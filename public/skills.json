@@ -1,4 +1,4 @@
- [
+[
   {
     "id": 1,
     "name": "HTML 5",
@@ -39,11 +39,7 @@
     "name": "Node JS",
     "thumb": "https://i.postimg.cc/9fnX6grS/nodejs3d.png"
   },
-  {
-    "id": 9,
-    "name": "Express JS",
-    "thumb": "https://i.postimg.cc/GpHdxPqj/express.png"
-  },
+
   {
     "id": 10,
     "name": "MongoDB",
