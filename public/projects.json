@@ -1,20 +1,26 @@
- [
+[
   {
+    "id": 1,
     "title": "TikiDocs Forum",
-    "thumb": "https://i.postimg.cc/wMqkNd0S/tikidocs-site-new.webp",
-    "client": "React, Tailwind, Daisy UI, TanStack Query, Axios, Reack Hook Form, React Router Dom,",
-    "server": "Node, Express, MongoDB, Firebase"
+    "thumb": "https://i.postimg.cc/yNtp1GrZ/tiki-Docs-banner.png",
+    "technology": "React, Tailwind, Daisy UI, TanStack Query, Axios, Reack Hook Form, React Router Dom, Node, Express, MongoDB, Firebase",
+    "liveLink" : "https://tikidocs-client.vercel.app/",
+    "githubLink": "https://github.com/A4alif/tikidocs-client-react-app"
   },
   {
+    "id": 2,
     "title": "Academist Group Study App",
-    "thumb": "https://i.postimg.cc/PxkytDZf/academist-site-new.webp",
-    "client": "Tailwind CSS, DaisyUI, React, Axios, React Hook Form, React Router Dom",
-    "server": "Node, Express, MongoDB, Firebase"
+    "thumb": "https://i.postimg.cc/7h2kP7Vx/academist-banner.png",
+    "technology": "React, Tailwind, Daisy UI, TanStack Query, Axios, Reack Hook Form, Firebase, Node, Express, MongoDB",
+    "liveLink": "https://assignment-client-ten.vercel.app/",
+    "githubLink": "https://github.com/A4alif/academist-client-react-app"
   },
   {
+    "id": 3,
     "title": "Electon Brand Shop",
     "thumb": "https://i.postimg.cc/50q3jtqB/electon-website-new.webp",
-    "client": "Tailwind CSS, DaisyUI, React, React Hook Form, React Router Dom",
-    "server": "Node, Express, MongoDB, Firebase"
+    "technology": "React, Tailwind, Daisy UI, React Hook Form, Firebase, Node, Express, MongoDB",
+    "liveLink": "https://electon-client.vercel.app/",
+    "githubLink": "https://github.com/A4alif/electon-client-react-app"
   }
 ]

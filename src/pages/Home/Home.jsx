@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Banner from "./Banner/Banner";
 import Expertise from "./Expertise/Expertise";
 import ExpertiseBackend from "./ExpertiseBackend/ExpertiseBackend";
+import Projects from "./Projects/Projects";
 
 const Home = () => {
   return (
@@ -17,8 +18,11 @@ const Home = () => {
       <div>
         <Expertise />
       </div>
-      <div className="mt-9 mb-14" >
+      <div className="mt-9 " >
         <ExpertiseBackend />
+      </div>
+      <div>
+        <Projects />
       </div>
     </>
   );
