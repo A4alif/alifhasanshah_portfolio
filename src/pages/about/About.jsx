@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile/Profile";
 import { Helmet } from "react-helmet-async";
 import SkillSet from "./SkillSet/SkillSet";
+import Education from "./Education/Education";
 
 const About = () => {
   return (
@@ -13,6 +14,9 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div>
             <Profile />
+          </div>
+          <div>
+            <Education />
           </div>
           <div>
             <SkillSet />
