@@ -6,6 +6,7 @@ import Expertise from "./Expertise/Expertise";
 import ExpertiseBackend from "./ExpertiseBackend/ExpertiseBackend";
 import Projects from "./Projects/Projects";
 import Certificates from "./Certificates/Certificates";
+import DevelopmentStrategy from "./DevelopmentStrategy/DevelopmentStrategy";
 
 const Home = () => {
   return (
@@ -24,6 +25,9 @@ const Home = () => {
       </div>
       <div>
         <Projects />
+      </div>
+      <div>
+        <DevelopmentStrategy />
       </div>
       <div>
         <Certificates />
