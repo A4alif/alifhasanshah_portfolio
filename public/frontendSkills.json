@@ -1,0 +1,30 @@
+ [
+  {
+    "name": "HTML 5",
+    "thumb": "https://i.postimg.cc/66R6P0wj/html3d-2.png"
+  },
+  {
+    "name": "CSS 3",
+    "thumb": "https://i.postimg.cc/Jhvm6yFC/css3d-2.png"
+  },
+  {
+    "name": "Bootstrap",
+    "thumb": "https://i.postimg.cc/CxwKkf3v/bootstrap3d.png"
+  },
+  {
+    "name": "Tailwind CSS",
+    "thumb": "https://i.postimg.cc/6p69yxZg/tailwind3d.png"
+  },
+  {
+    "name": "JavaScript",
+    "thumb": "https://i.postimg.cc/DyTf3Xw2/java-Script3d-2.png"
+  },
+  {
+    "name": "React JS",
+    "thumb": "https://i.postimg.cc/43dNFRNV/react3d.png"
+  },
+  {
+    "name": "Next JS",
+    "thumb": "https://i.postimg.cc/BnhJF7c6/nextjs.png"
+  }
+]

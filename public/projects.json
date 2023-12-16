@@ -1,0 +1,20 @@
+ [
+  {
+    "title": "TikiDocs Forum",
+    "thumb": "https://i.postimg.cc/wMqkNd0S/tikidocs-site-new.webp",
+    "client": "React, Tailwind, Daisy UI, TanStack Query, Axios, Reack Hook Form, React Router Dom,",
+    "server": "Node, Express, MongoDB, Firebase"
+  },
+  {
+    "title": "Academist Group Study App",
+    "thumb": "https://i.postimg.cc/PxkytDZf/academist-site-new.webp",
+    "client": "Tailwind CSS, DaisyUI, React, Axios, React Hook Form, React Router Dom",
+    "server": "Node, Express, MongoDB, Firebase"
+  },
+  {
+    "title": "Electon Brand Shop",
+    "thumb": "https://i.postimg.cc/50q3jtqB/electon-website-new.webp",
+    "client": "Tailwind CSS, DaisyUI, React, React Hook Form, React Router Dom",
+    "server": "Node, Express, MongoDB, Firebase"
+  }
+]

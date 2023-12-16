@@ -1,0 +1,26 @@
+ [
+  {
+    "name": "Git",
+    "thumb": "https://i.postimg.cc/wjFjVjH9/git3d.png"
+  },
+  {
+    "name": "GitHub",
+    "thumb": "https://i.postimg.cc/sxS29PfL/github3d.png"
+  },
+  {
+    "name": "Postman",
+    "thumb": "https://i.postimg.cc/J4NnsQ2D/postman3d.png"
+  },
+  {
+    "name": "Figma",
+    "thumb": "https://i.postimg.cc/Y0cr94Nz/figma3d-new.png"
+  },
+  {
+    "name": "VS Code",
+    "thumb": "https://i.postimg.cc/ZnrTyTVt/vscode3d.png"
+  },
+  {
+    "name": "Vercel",
+    "thumb": "https://i.postimg.cc/8cmbL27Y/vercel.png"
+  }
+]
