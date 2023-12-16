@@ -17,13 +17,7 @@ const DevelopmentStrategy = () => {
                     Software Development Life Cycle
                   </h2>
                   <p className="text-md leading-8">
-                    The Software Development Life Cycle (SDLC) is a systematic
-                    process that development teams use to produce high-quality
-                    software, that meets customer expectations, in a
-                    cost-effective way. It provides a methodical, step-by-step
-                    approach to developing successful software, including
-                    gathering the initial requirements for a new product,
-                    through to maintaining a mature product on the market.{" "}
+                  My tailored Software Development Life Cycle (SDLC) process is a systematic, cost-effective approach. It begins with gathering initial requirements for a new product and extends through maintaining a mature product on the market. This methodical, step-by-step framework ensures high-quality software development that consistently meets and surpasses customer expectations.{" "}
                   </p>
                 </div>
               </div>
