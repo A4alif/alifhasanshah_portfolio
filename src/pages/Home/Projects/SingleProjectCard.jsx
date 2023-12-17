@@ -6,43 +6,36 @@ const SingleProjectCard = ({ project }) => {
 
   return (
     <div>
-      <div className="card  bg-base-100 shadow-xl">
-        <div className="relative">
-          <figure className="py-6 ">
-            <img
-              className=" h-[350px] w-[450px] object-cover "
-              src={thumb}
-              alt="pic"
-            />
-          </figure>
+      <div className=" bg-white  rounded-lg shadow-lg ">
+        <div className=" lg:h-[280px]">
+          <img
+            className="rounded-t-lg h-full object-contain "
+            src={thumb}
+            alt=""
+          />
         </div>
-        <div className="px-8 pb-8">
-          <div className="flex justify-between items-center mb-4">
-            <h2 className="text-lg font-bold ">{title}</h2>
-          </div>
-          <div>
-            <p className="text-sm">
-              Technology Used:{" "}
-              <span className="capitalize text-green-600 font-semibold leading-7">
-                {technology}
-              </span>{" "}
-            </p>
-          </div>
+        <div className="p-5">
+          <a href="#">
+            <h5 className="mb-2 text-md md:text-md lg:text-xl font-bold tracking-tight text-gray-900">
+              {title}
+            </h5>
+          </a>
+          <p className="mb-3 font-normal text-gray-700 my-4 text-xs md:text-sm lg:text-md ">
+            Technology Used: <span className="leading-7">{technology}</span>
+          </p>
 
-          <div className="flex justify-around mt-4">
+          <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0  lg:space-x-6 py-2 lg:py-6">
             <div>
-              <Link target="_blank" to={liveLink}>
-                {" "}
-                <button className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                  Live Site
-                </button>
-              </Link>
+              <Link target="_blank" to={liveLink} >
+              <button className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                Live Link
+              </button></Link>
             </div>
             <div>
               <Link target="_blank" to={githubLink}>
-                <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                  Github Code
-                </button>
+              <button className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                Github Link
+              </button>
               </Link>
             </div>
           </div>

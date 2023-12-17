@@ -1,14 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
+  const [text] = useTypewriter({
+    /* Hook Config */
+    words: ["JavaScript", "React", "Node", "Express", "MongoDB"],
+    loop: {},
+    typeSpeed: 120,
+  });
   return (
     <>
       <div className="min-h-[cacl(100vh-50px)] bg-[url(https://i.postimg.cc/ZRQ9h0qY/banner-background.jpg)] bg-no-repeat bg-center bg-cover">
         <div className="container mx-auto px-6 ">
           <div className="flex flex-col items-center lg:flex-row lg:space-x-6 ">
             <div className=" w-full lg:w-6/12 lg:h-[700px] flex items-center  justify-center text-center lg:text-left pb-14 lg:pb-0  ">
-              <div className="">
+              <div className="max-w-6xl">
                 <h2 className="text-5xl mb-9 text-[#f95738] font-semibold">
                   Hi, I'm
                 </h2>
@@ -18,10 +25,11 @@ const Banner = () => {
                 <p className="text-3xl mb-9 text-[#15295F] font-semibold">
                   Mern Stack Developer
                 </p>
-                <p className="text-lg mb-14">
-                  Proficient in leveraging diverse technologies with expertise
-                  in React
-                </p>
+                <div className="max-w-4xl">
+                  <p className="text-lg mb-14 text-[#15295F] font-semibold">
+                    Bridging the Gap Between Ideas and Implementation
+                  </p>
+                </div>
                 <Link
                   target="_blank"
                   to={
@@ -29,7 +37,7 @@ const Banner = () => {
                   }
                 >
                   <button className="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
-                    View Resume
+                    My Resume
                   </button>
                 </Link>
               </div>
