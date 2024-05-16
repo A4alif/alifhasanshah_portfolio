@@ -50,6 +50,9 @@ const Certificates = () => {
               <SwiperSlide>
                 <img src="https://i.postimg.cc/SsRbQGzM/UC-396c7b7c-7042-44ba-b3e6-ca1dfe844933.jpg" />
               </SwiperSlide>
+              <SwiperSlide>
+                <img src="https://i.postimg.cc/D0Mfw2hL/programming-Hero-Batch8-Certificate.png" />
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>
